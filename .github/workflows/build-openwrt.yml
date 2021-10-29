@@ -47,6 +47,7 @@ env:
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
   TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
   TZ: Asia/Shanghai
+    UPLOAD_BIN_DIR: 'true'
 
 jobs:
   build:
